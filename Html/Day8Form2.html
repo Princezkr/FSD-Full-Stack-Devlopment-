@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;">
+    <form action=>
+        <h1>Registration Form</h1>
+        <lable>Enter Your Username:<input type="text" placeholder="Username" name="username"></lable>
+        <br><br>
+        <lable>Enter Your Phone No.:<input type="number" placeholder="Phone No." name="Phone"></lable>
+        <br><br>
+        <lable>Enter Your Password:<input type="password" placeholder="Password" name="password"></lable>
+        <br><br>
+        <lable>Date:<input type="date" name="DOB"></lable>
+        <br><br>
+        <lable>Time:<input type="time" name="time"></lable>
+        <br><br>
+        <lable>Color:<input type="color" name="color"></lable>
+        <br><br>
+        <!-- This is Classic aproach for lable -->
+        <lable for="Email">Enter Your Email:</lable>
+        <input id="Email" type="text" placeholder="Email" name="Email">
+        <br><br>
+        <lable for="12thPass">12th Pass</lable>
+        <input type="checkbox" id="12thPass" value="checkbox" checked>
+        <lable for="Age">Are You 18+</lable>
+        <input type="checkbox" id="age" name="age">
+        <br><br>
+        <input type="radio" name="gender" value="male" id="Male">
+        <lable for="Male">Male</lable>
+        <input type="radio" name="gender" value="female" id="Female">
+        <lable for="Female">Female</lable>
+        <br><br>
+        <lable for="Feedback">Please Write Your Valuable Feedback:<br></lable>
+        <textarea id="Feedback"></textarea>
+        <br><br>
+        <button>Button</button>
+        <input type="submit">
+        <input type="button" value="Nothing">
+        <input type="reset">
+    </form>
+</body>
+</html>
