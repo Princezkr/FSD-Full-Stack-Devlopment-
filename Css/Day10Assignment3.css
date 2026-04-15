@@ -1,0 +1,13 @@
+.Navbar{
+    background-color: black;
+    padding:10px;
+    text-align: center;
+}
+.Navbar a{
+    color: white;
+    text-decoration: none;
+    margin:0 50px;
+}
+.Navbar a:hover{
+    color: yellow;
+}

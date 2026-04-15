@@ -1,0 +1,52 @@
+body{
+    background-color: lightblue;
+}
+marquee{
+    color:blue;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+fieldset{
+    padding:px;
+    margin:10px 0 0 0;
+    background-color: white;
+    border-radius: 6px;
+}
+h3{
+    margin: -5px 0 0 0;
+    border-bottom:1px solid black
+}
+label{
+    display:block;
+    color:darkblue;
+    margin: 5px 0;
+}
+input{
+    background-color: lightgrey;
+    width:98%;
+    padding: 5px 5px;
+    font-size: 100%;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+textarea{
+    background-color: lightgrey;
+    width:98%;
+    padding:5px 5px 30px 5px;
+    font-size: 120%;
+    border: solid 1px grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: orange;
+    color:white;
+    border-radius:5px;
+    padding: 8px 40px;
+    font-size: 100%;
+    cursor: pointer;
+    border: solid 1px black;
+}
+.Button{
+    text-align: center;
+}

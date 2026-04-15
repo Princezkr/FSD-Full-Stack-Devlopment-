@@ -1,0 +1,142 @@
+body{
+    background-color: lightgray;
+}
+.A2{
+    background-color: white;
+    display:flex;
+    padding:20px;
+    border:solid 1px black;
+    border-radius: 5px;
+    width:350px;
+}
+.A2 img{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    margin: -10px 0 0 0;
+}
+.A2Right{
+    margin:-30px 0 0 -20px;
+}
+.A2Right h3{
+    color: darkblue;
+    font-size:150%;
+}
+.A2Right p{
+    margin:-10px 0 0 0;
+    font-style: italic;
+    font-size: 120%;
+}
+.A2Left button{
+    display:flex;
+    padding:5px 35px;
+    margin: 10px 0 0 0;
+    font-size: medium;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.A2Left button:hover{
+    color: blue;
+}
+.Separator{
+    border:2px solid red;
+}
+.A3{
+    background-color: black;
+    text-align: center;
+    padding:10px;
+}
+.A3 a{
+    margin:0 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.A3 a:hover{
+    color:yellow;
+}
+.A4{
+    text-align: center;
+}
+.A4 input{
+    width: 98%;
+    padding:10px 5px;
+    margin:0 0 10px -2px;
+    border-radius: 5px;
+    border: none;
+}
+.A4 button{
+    background-color: blue;
+    width:100%;
+    color: white;
+    padding: 10px 5px;
+    font-size: 100%;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+}
+.A4 button:hover{
+    color: red;
+}
+.A5{
+    background-color: lightblue;
+    padding:10px 10px;
+    border-radius: 10px;
+    margin:10px 0 0 0;
+    text-align: center;
+}
+.A5 marquee{
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    font-size: 150%;
+    color:darkblue;
+    margin:5px 0 0 0;
+}
+.A5 fieldset{
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px 0 10px 0;
+}
+.A5 p{
+    color: darkblue;
+    font-size: 125%;
+    border-bottom: solid 1px gray;
+    margin:-5px 0 10px 0;
+    text-align: left;
+}
+.A5 label{
+    color: darkblue;
+    display:block;
+    font-size: 105%;
+    text-align: left;
+}
+.A5 input{
+    background-color: lightgrey;
+    width:98%;
+    padding:8px 5px;
+    border:none;
+    border-radius: 5px;
+}
+.A5 textarea{
+    background-color: lightgrey;
+    width: 98%;
+    padding:0 2px 50px 5px;
+    border:none;
+    border-radius:5px;
+}
+.A5 button{
+    display: inline;
+    background-color: orange;
+    color: white;
+    padding: 8px 50px;
+    font-size: 100%;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.A5 button:hover{
+    color:green;
+}
