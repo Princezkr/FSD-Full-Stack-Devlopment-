@@ -1,0 +1,188 @@
+body{
+    background-color: lightgray;
+}
+.Navbar{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-size: 20px;
+}
+.Navbar a{
+    text-decoration: none;
+    color: white;
+    margin:0 50px;
+}
+.Navbar a:hover{
+    color: yellow;
+}
+.Card{
+    display: flex;
+    margin: -15px 0 0 0;
+    padding:0 0 5px 0;
+    border-bottom:1px solid gray;
+}
+.Card img{
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+    border:2px solid red;
+}
+.Name{
+    font-size:25px;
+    font-weight: bold;
+}
+.Info{
+    font-style:italic ;
+}
+.Card button{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:80px;
+    height:25px;
+    font-size:15px;
+}
+.Card button:hover{
+    color: aqua;
+}
+.CardInfo{
+    margin: 10px 0 0 10px;
+    line-height: 0px;
+}
+.Data{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Data form{
+    background-color: white;
+    text-align: center;
+    margin: 40px 0 0 0;
+    padding: 0 40px 10px 40px;
+    border-radius:20px;
+}
+.Label{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin:20px 0 10px 0;
+}
+.Data form input{
+    width: 300px;
+    height:30px;
+    margin:0 0 25px 0;
+}
+.Data form button{
+    background-color: darkblue;
+    color: white;
+    width: 300px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    margin:0 0 -10px 0;
+    cursor:pointer;
+    font-size: 15px;
+}
+.Data form button:hover{
+    color: aqua;
+}
+.Data form .Resolve{
+    font-size: 17px;
+}
+.Data form .Resolve a{
+    text-decoration: none;
+}
+.Data form .Resolve a:hover{
+    color: blue;
+}
+.Foot{
+    text-align: center;
+    color: red;
+    margin: 5px 0 0 -150px;
+    font-size: 17px;
+}
+#DOB{
+    width:614px;
+}
+.Data form label{
+    font-size: 17px;
+}
+#Gender input{
+    width:30px;
+    height:25px;
+    margin:10px 0 25px 300px;
+    cursor:pointer;
+}
+#Dob{
+    text-align: left;
+}
+#GENDER{
+    text-align: left;
+}
+#Gender #Male{
+    margin-left: -150px;
+}
+.ForFlex img{
+    margin:30px 0 0 0;
+    border:2px solid black;
+}
+.ForFlex p{
+    font-size:40px;
+    font-weight: bold;
+    margin:25px 0 0 25px;
+}
+#Education{
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+#Education h2{
+    font-size:30px;
+}
+#Education li{
+    font-size: 20px;
+}
+#Skills{
+    border-top: 1px solid black;
+}
+#Skills h2{
+    font-size:30px;
+}
+#Skills li{
+    font-size: 20px;
+}
+#Hobbies{
+    border-top: 1px solid black;
+}
+#Hobbies h2{
+    font-size:30px;
+}
+#Hobbies li{
+    font-size: 20px;
+}
+#Contact{
+   background-color: white;
+    padding:0 25px;
+    margin: 30px 0 0 0;
+    border-radius: 10px;
+    border: 2px solid red; 
+}
+#Contact h2{
+    font-size: 40px;
+}
+#Contact li{
+    font-size: 30px;
+}
+.ForFlex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#About{
+    background-color: white;
+    padding:0 25px;
+    margin: 30px 0 0 0;
+    border-radius: 10px;
+    border: 2px solid red;
+}
