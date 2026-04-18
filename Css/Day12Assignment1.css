@@ -1,0 +1,39 @@
+.A1{
+    background-color: oldlace;
+    padding: 15px;
+    border-radius: 5px;
+    width: 405px;
+}
+.TextBlock{
+    border: 1px dotted black;
+    padding: 5px 10px 0 10px;
+    font-family: Georgia;
+}
+.TextBlock h3{
+    color: darkred;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid darkgrey;
+    margin: 2px 0 -10px 0;
+    padding-bottom: 6px;
+}
+.TextBlock P {
+    font-size: 16px;
+    line-height: 25px;
+}
+.TextBlock .P1 mark {
+    color: darkblue;
+    background-color: oldlace;
+    font-weight: bold;
+    font-size:15px;
+}
+.TextBlock .P2 {
+    font-style: italic;
+    color:green;
+    text-align: right;
+}
+.TextBlock .P3 {
+    color: brown;
+    text-align: right;
+}
