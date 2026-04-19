@@ -1,0 +1,46 @@
+#Lower{
+    display:flex;
+    padding-top: 15px;
+}
+#Lower p{
+    font-size: 20px;
+    padding-right: 15px;
+    margin-top: 7px;
+}
+#Lower input{
+    height:30px;
+    width:250px;
+}
+#Lower button{
+    height:30px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+.ForFlex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#Facebook{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px 0 0 0;
+}
+body{
+    background-color: lightgrey;
+}
+#Upper{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+#Upper p{
+    color: blue;
+    font-size: 30px;
+    margin: -15px 0 0 0;
+}
+#Upper button{
+    background-color: aqua;
+    color: black;
+}

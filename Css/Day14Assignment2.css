@@ -1,0 +1,50 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+.ForFlex{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#Todo{
+    background-color: white;
+    padding: 20px;
+    margin:20px 0 0 0;
+    border-radius: 10px;
+}
+#Upper{
+    border-bottom: 1px dashed black;
+    padding-bottom:10px;
+}
+#Upper h2{
+    color: #d35400;
+    margin:-10px 0 10px 0;
+    font-size: 40px;
+}
+#Upper button{
+    color: white;
+    background-color: green;
+    border:2px solid black;
+    height:25px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Upper #Clear:hover{
+    color: darkblue;
+}
+#Upper button:hover{
+    color: darkblue;
+}
+#Upper #Clear{
+    background-color: red;
+    color: white;
+}
+#Lower label{
+    font-size: 20px;
+}
+#Lower input{
+    width: 20px;
+    height: 20px;
+}
