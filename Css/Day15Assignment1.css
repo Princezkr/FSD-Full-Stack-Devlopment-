@@ -1,0 +1,11 @@
+#A1 p{
+    font-size: 18px;
+    padding-left: 10px;
+}
+#A1 a{
+    color:#c0392b;
+    text-decoration: none;
+}
+#A1 a:visited{
+    color: purple;
+}

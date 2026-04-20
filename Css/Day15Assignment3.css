@@ -1,0 +1,17 @@
+.ForFlex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#Content{
+    border: 1px solid black;
+    background-color: #e3f2fd;
+    padding:20px;
+    width: 900px;
+}
+#Content h1{
+    text-align: center;
+}
+#Content p{
+    margin:0 0 0 275px;
+}
