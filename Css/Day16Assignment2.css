@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+.ForFlex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#A2{
+    background-color: white;
+    width:500px;
+    border-radius: 5px;
+    padding-bottom:20px;
+}
+#Upper h1{
+    border-bottom: 1px solid black;
+    margin:15px 0 0 0;
+    padding:0 0 10px 0;
+    text-align: center;
+}
+#Upper h2{
+    margin: 10px 0 0 0 ;
+    text-align: center;
+}
+#Upper p{
+    text-align: left;
+    background-color: lightblue;
+    padding:8px 0 8px 10px;
+    font-weight: bold;
+    margin:10px 15px 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Upper p:hover{
+    color:red;
+    background:linear-gradient(to right,lightblue,cyan,blue);
+}
+#Middle h2{
+    margin:15px 0 15px 0;
+    text-align: center;
+}
+#Middle p{
+    display:inline;
+    background-color: lightgreen;
+    padding:5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#Middle p:hover{
+    color:red;
+    background:linear-gradient(to right,lightgreen,green,darkgreen)
+}
+#First{
+    margin-left: 15px;
+}
+#Lower h2{
+    color: orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    margin: 15px;
+}
+#Lower h2::before,
+#Lower h2::after{
+    content: "";
+    flex: 1;
+    border-top: 2px dotted orange;
+}
+#Lower p{
+    font-weight: bold;
+    margin-left: 15px;
+}
+.Box p{
+    display:inline;
+    background-color: orangered;
+    padding:3px 20px;
+    border-radius: 5px;
+    margin-right:-10px;
+    cursor: pointer;
+    color:white
+}
+.Box p:hover{
+    background:linear-gradient(to right,yellow,orange,red);
+}

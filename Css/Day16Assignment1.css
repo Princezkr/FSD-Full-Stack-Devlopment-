@@ -1,0 +1,98 @@
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ForFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#A1{
+    background-color: lightblue;
+    display:block;
+    padding:5px;
+    border-radius: 5px;
+    margin:10px 0;
+}
+#A1 p{
+    border:1px solid black;
+    padding:3px 20px 3px 10px;
+    margin: 3px 0;
+    border-radius: 2px;
+    font-weight: bold;
+}
+#A1 p:hover{
+    background:linear-gradient(to right,cyan,blue);
+    cursor:pointer;
+}
+#A1 #A1Lower{
+    font-weight: normal;
+    background-color: lightcyan;
+}
+.Break{
+    border:2px dashed red;
+}
+#A2{
+    background-color: rgb(219, 255, 219);
+    padding:0px 10px;
+    width:325px;
+    border-radius:5px;
+    margin:10px 0;
+}
+#A2 p{
+    display:inline;
+    font-weight: bold;
+    border:1px solid black;
+    background-color: rgb(175, 207, 175);
+    padding:5px 15px;
+    border-radius: 5px;
+    margin: 8px 2px;
+}
+#A2 p:hover{
+    background:linear-gradient(to right,lightgreen,green);
+    cursor:pointer;
+}
+#A2 #Block{
+    display:inline-block;
+}
+#A3{
+    margin:10px 0;
+}
+#A3 p{
+    display:inline;
+    font-weight: bold;
+    border:1px solid black;
+    background-color: rgb(175, 207, 175);
+    padding:5px 15px;
+    border-radius: 5px;
+    margin: 8px 2px;
+}
+#A3 p:hover{
+    background:linear-gradient(to right,lightgreen,green);
+    cursor:pointer;
+}
+#A4{
+    margin:10px 0;
+}
+.Orange{
+    display:inline;
+    background-color: orange;
+    padding:8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Orange p{
+    display:inline;
+    background-color: red;
+    padding:4px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Orange p:hover{
+    background:linear-gradient(to right,orange,red)
+}
+.Orange:hover{
+    background:linear-gradient(to right,red,orange)
+}

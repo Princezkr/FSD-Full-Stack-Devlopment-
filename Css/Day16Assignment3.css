@@ -1,0 +1,185 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+.ForFlex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#Content{
+    background-color: white;
+    padding:20px;
+    border-radius: 20px;
+}
+#A2{
+    width:500px;
+}
+#Upper h1{
+    border-bottom: 1px solid lightgray;
+    margin:0 0 0 0;
+    padding:0 0 10px 0;
+    text-align: center;
+}
+#Upper h2{
+    margin: 10px 0 0 0 ;
+    text-align: center;
+}
+#Upper p{
+    text-align: left;
+    background-color: lightblue;
+    padding:8px 0 8px 10px;
+    font-weight: bold;
+    margin:10px 15px 0 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Upper p:hover{
+    color:red;
+    background:linear-gradient(to right,lightblue,cyan,blue);
+}
+#Middle h2{
+    margin:15px 0 15px 0;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+#Middle h2::before,#Middle h2::after{
+    flex:1;
+    content: "";
+    border-bottom:2px dotted orange;
+}
+#Middle p{
+    display:inline;
+    background-color: lightgreen;
+    padding:5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#Middle p:hover{
+    color:red;
+    background:linear-gradient(to right,lightgreen,green,darkgreen)
+}
+#Lower h2{
+    color: orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Lower h2::before{
+    content: "";
+    flex: 1;
+    border-bottom: 2px dotted orange;
+    margin-top:12px;
+}
+#Lower h2::after{
+    font-size: 10px;
+    text-align: left;
+    content: "⭐";
+    flex: 1;
+    border-bottom: 2px dotted orange;
+}
+#Lower p{
+    font-weight: bold;
+}
+.Box p{
+    display:inline;
+    background-color: orangered;
+    padding:7px 30px;
+    border-radius: 5px;
+    margin-right:10px;
+    cursor: pointer;
+    color:white
+}
+.Box p:hover{
+    background:linear-gradient(to right,yellow,orange,red);
+}
+#lower h2{
+    color: orange;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+#lower h2::before{
+    flex:1;
+    content:"";
+    border-bottom:2px dotted orange;
+}
+#lower h2::after{
+    font-size: 20px;
+    margin-bottom:25px;
+    text-align: left;
+    flex:1;
+    content:"⤶";
+    border-bottom:2px dotted orange;
+}
+#lower p .dot{
+    color: orange;
+    font-size: 25px;
+    background-color: white;
+}
+#lower p mark{
+    background-color: white;
+    font-weight: bold;
+}
+#Box1 p{
+    background-color:blue ;
+    color: white;
+    padding:3px 25px;
+    display:inline;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right: 5px;
+}
+#Box1 p:hover{
+    background:linear-gradient(to right,purple,blue);
+}
+#Box2 p:hover{
+    background:linear-gradient(to right,cyan,green);
+}
+#Box3 p:hover{
+    background:linear-gradient(to right,yellow,red);
+}
+#Box4 p:hover{
+    background:linear-gradient(to right,red,orange);
+}
+#Box2 p{
+    background-color:green ;
+    color: white;
+    padding:3px 28px;
+    display:inline;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right: 5px;
+}
+#Box3 p{
+    background-color:red ;
+    color: white;
+    padding:3px 10px;
+    display:inline;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right: 5px;
+}
+#Box4 p{
+    background-color:orange ;
+    color: white;
+    padding:3px 25px;
+    display:inline;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right: 5px;
+}
+#Final{
+    color: darkgoldenrod;
+    text-align: center;
+    margin:5px 0 0 -200px;
+}
